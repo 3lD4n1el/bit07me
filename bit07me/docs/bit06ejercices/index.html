@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <script src="./main.js" defer></script>
+
+    <header>
+      <ul>
+        <li><a href="../index.html">inicio</a></li>
+        <li><a href="./index.html">ejercicios</a></li>
+      </ul>
+      <h1>Bienvenidos</h1>
+      <h3>ingresa tus datos</h3>
+      <p id="respuesta"></p>
+    </header>
+    <form action="" id="form">
+      <label for="username"
+        >Escribe tu usuario
+        <input required type="text" id="username" placeholder="usuario" />
+      </label>
+      <label for="password"
+        >Escribe tu Contraseña
+        <input
+          required
+          type="password"
+          id="password"
+          placeholder="contraseña"
+        />
+      </label>
+      <label for="validation">
+        acepta T & C
+        <input required type="checkbox" id="validation" />
+      </label>
+      <button type="submit">iniciar sesion</button>
+    </form>
+  </body>
+</html>
