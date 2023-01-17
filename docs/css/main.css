@@ -1,0 +1,78 @@
+@import url(../normalize/normalize.css);
+@import url(../banner/banner.css);
+
+body {
+  font-family: sans-serif;
+  min-width: 380px;
+  max-width: 1920px;
+  flex-wrap: wrap;
+}
+section {
+  color: #000000;
+  display: table;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 6%;
+}
+.foto{
+  display: flex;
+  justify-content: center;
+}
+img{
+  height: 500px;
+  border-radius: 20%;
+  margin-top: 40px;
+}
+ .trabajo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+ }
+ .trabajo h2{
+  color: #000000;
+  text-transform: capitalize;
+ }
+
+ .trabajo div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+ }
+
+ .trabajo div p {
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 100;
+ }
+
+
+ .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: -50px;
+  text-transform: capitalize;
+ }
+ .contact h2{
+  color: #000000;
+ }
+ .redes {
+  display: flex;
+  width: 50%;
+  border-radius: 50px;
+  justify-content: space-around;
+  margin-bottom: 50px;
+ }
+
+ .redes a {
+  height: 30px;
+  padding: 10px;
+ }
+ .redes img{
+  height: 29px;
+ }
