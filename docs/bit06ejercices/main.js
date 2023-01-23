@@ -1,22 +1,15 @@
-const form = document.querySelector("#form");
+"use strict";
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  let usuario = document.getElementById("username").value;
-  let password = document.getElementById("password").value;
+let form = document.getElementById("form");
+let response = document.getElementById("response");
 
-  if (usuario !== "bit") {
-    (document.getElementById(
-      "respuesta"
-    ).innerHTML = `hay algun dato mal, por favor verifica`),
-      console.error("error nombre equivocado");
-  }
-  if (password !== "2023") {
-    (document.getElementById(
-      "respuesta"
-    ).innerHTML = `hay algun dato mal, por favor verifica`),
-      console.error("revisa la contraseña");
-  } else {
-    window.location.assign("./ejerecicios/ejercicios.html");
-  }
+const user = "bit";
+const pass = "2023";
+
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  form.user.value === user && form.password.value === pass
+    ? location.assign("./ejerecicios/ejercicios.html")
+    : (response.innerHTML = "revisa tus datos, algo esta mal");
 });
