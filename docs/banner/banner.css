@@ -6,7 +6,7 @@ nav h2{
   font-size: 40px;
 }
 .banner {
-  background: linear-gradient(322deg, rgba(45,8,14,1) 37%, rgba(133,0,0,1) 47%);
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,6 +17,7 @@ nav h2{
 }
 
 .banner nav {
+  background: linear-gradient(322deg, rgba(45,8,14,1) 37%, rgba(133,0,0,1) 47%);
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -62,9 +63,13 @@ h2 a:hover {
 
 .texto-banner {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   color: #ffffffb0;
-  padding-left: 60px;
+  padding: 0 60px;
 } 
+
+.texto-banner p{
+  font-size: 17px;
+}
 

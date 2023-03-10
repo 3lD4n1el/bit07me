@@ -46,7 +46,6 @@ img{
   width: 50%;
   padding: 20px;
   font-size: 20px;
-  text-transform: capitalize;
   font-weight: 100;
  }
 
@@ -77,6 +76,9 @@ img{
   height: 29px;
  }
  
- b{
+ .vite{
   color:red;
+ }
+ .book{
+  margin-right: 30px;
  }
