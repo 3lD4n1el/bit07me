@@ -1,4 +1,4 @@
-# web personal sobre mi perfil
+# web personal sobre mi
 
 página donde la gente pueda conocer sobre mi y asi mismo me pueda contactar
 
