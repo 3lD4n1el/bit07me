@@ -1,84 +1,187 @@
-@import url(../normalize/normalize.css);
-@import url(../banner/banner.css);
-
+/* Estilos generales */
 body {
-  font-family: sans-serif;
-  min-width: 380px;
-  max-width: 1920px;
-  flex-wrap: wrap;
-}
-section {
-  color: #000000;
-  display: table;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 6%;
-}
-.foto{
-  display: flex;
-  justify-content: center;
-}
-img{
-  height: 500px;
-  border-radius: 20%;
-  margin-top: 40px;
-}
- .trabajo {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
- }
- .trabajo h2{
-  color: #000000;
-  text-transform: capitalize;
- }
-
- .trabajo div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
- }
-
- .trabajo div p {
-  width: 50%;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: 100;
- }
-
-
- .contact {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  }
+  
+  /* Header */
+  .banner {
+    background-color: #3D5A80;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -150px ;
+  color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  margin-left: -50px;
-  text-transform: capitalize;
- }
- .contact h2{
-  color: #000000;
- }
- .redes {
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .banner nav {
   display: flex;
-  width: 50%;
-  border-radius: 50px;
-  justify-content: space-around;
-  margin-bottom: 50px;
- }
-
- .redes a {
-  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
   padding: 10px;
- }
- .redes img{
-  height: 29px;
- }
- 
- .vite{
-  color:red;
- }
- .book{
-  margin-right: 30px;
- }
+  box-sizing: border-box;
+  }
+  
+  .banner nav h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 2px;
+  }
+  
+  .banner nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  }
+  
+  .banner nav ul li {
+  margin: 0 10px;
+  }
+  
+  .banner nav ul li a {
+  color: #F4D35E;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  }
+  
+  .banner nav ul li a:hover {
+  color: #EE964B;;
+  }
+  
+  .texto-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  }
+  
+  .texto-banner h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 20px;
+  text-transform: capitalize;
+  }
+  
+  .texto-banner p.text {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 20px;
+  font-weight: 100;
+  padding: 0 30px;
+  }
+  
+  .foto {
+  margin-top: 20px;
+  }
+  
+  .foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  }
+  
+  /* Contacto */
+  .contact {
+  background-color: #EE964B;
+  padding: 50px 0;
+  text-align: center;
+  text-transform: capitalize;
+  }
+  
+  .contact h2 {
+  font-size: 32px;
+  margin: 0 0 20px;
+  color: #ffffff;
+  }
+  
+  .contact p {
+  margin: 0 0 20px;
+  color: #ffffff;
+  font-size: 24px;
+  }
+  
+  .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .redes a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  }
+  
+  .redes a:hover {
+  transform: scale(1.2);
+  }
+  
+  .redes img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #F9F7F3;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  footer h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #3D5A80;
+  }
+  
+  footer nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  footer nav ul li {
+    margin-right: 20px;
+  }
+  
+  footer nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  footer nav ul li a {
+    color: #3D5A80;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  footer nav ul li a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+    color: #2d435f;
+  }
