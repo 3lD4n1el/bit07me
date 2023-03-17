@@ -4,4 +4,4 @@ página donde se espera llegar aque la gente pueda conocer sobre mi y asi mismo 
 
 ## Dev por:
 
-[Daniel Romero] (https://www.linkedin.com/in/daniel-romero-programador/)
+### Daniel Romero https://www.linkedin.com/in/daniel-romero-programador
