@@ -70,7 +70,6 @@ body {
   font-size: 40px;
   text-align: center;
   margin: 0 0 20px;
-  text-transform: capitalize;
   }
   
   .texto-banner p.text {
@@ -98,7 +97,6 @@ body {
   background-color: #EE964B;
   padding: 50px 0;
   text-align: center;
-  text-transform: capitalize;
   }
   
   .contact h2 {
